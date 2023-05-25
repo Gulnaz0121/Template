@@ -37,5 +37,6 @@
         </Grid.RowDefinitions>
         <Button x:Name="Khuzyakaev_4337" Content="Хузякаев Вадим 4337" Grid.Row="15" Click="Khuzyakaev_4337_Click"/>
         <Button x:Name="Grigoreva_4337" Content="Григорьева Виктория 4337" Grid.Row="6" Click="Grigoreva_4337_Click"/>
+        <Button x:Name="Yunusova_4337" Content="Юнусова Гульназ 4337" Grid.Row="20" Click="Yunusova_4337_Click"/>
     </Grid>
 </Window>

@@ -19,9 +19,11 @@
             VerticalAlignment="Center">
             <TextBlock Text="Юнусова Гульназ, 18"
                        FontSize="25"/>
-            <TextBlock
-                FontSize="20">
-            </TextBlock>
+            <Button Content="Импорт данных" x:Name="ButtonImport" Grid.Row="16" Click="ButtonImport_Click" Background="White" Width="200" Height="35" Margin="0,15,0,5"/>
+            <Button Content="Экспорт в Excel" Grid.Row="16" Click="ButtonExport_Click" Background="White" Width="200" Height="35"/>
+            <Button Content="Импорт JSON данных" x:Name="ButtonImporttJSON" Grid.Row="16" Click="ButtonImportJSON_Click" Background="White" Width="200" Height="35" Margin="0,15,0,5"/>
+            <Button Content="Экспорт в Word" Grid.Row="16" Click="ButtonExportWord_Click" Background="White" Width="200" Height="35"/>
         </StackPanel>
+        
     </Grid>
 </Window>
